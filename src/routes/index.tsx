@@ -2,15 +2,33 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Nav, LogoMark } from "@/components/site/Nav";
 import { Reveal } from "@/components/site/Reveal";
 
-const pageModules = import.meta.glob("../assets/pages/*.jpg", {
-  eager: true,
-  as: "url",
-}) as Record<string, string>;
+import pg01 from "../assets/pages/pg-01.jpg";
+import pg02 from "../assets/pages/pg-02.jpg";
+import pg03 from "../assets/pages/pg-03.jpg";
+import pg04 from "../assets/pages/pg-04.jpg";
+import pg05 from "../assets/pages/pg-05.jpg";
+import pg06 from "../assets/pages/pg-06.jpg";
+import pg07 from "../assets/pages/pg-07.jpg";
+import pg08 from "../assets/pages/pg-08.jpg";
+import pg09 from "../assets/pages/pg-09.jpg";
+import pg10 from "../assets/pages/pg-10.jpg";
+import pg11 from "../assets/pages/pg-11.jpg";
+import pg12 from "../assets/pages/pg-12.jpg";
+import pg13 from "../assets/pages/pg-13.jpg";
+import pg14 from "../assets/pages/pg-14.jpg";
+import pg15 from "../assets/pages/pg-15.jpg";
+import pg16 from "../assets/pages/pg-16.jpg";
+import pg17 from "../assets/pages/pg-17.jpg";
+import pg18 from "../assets/pages/pg-18.jpg";
+import pg19 from "../assets/pages/pg-19.jpg";
+import pg20 from "../assets/pages/pg-20.jpg";
+import pg21 from "../assets/pages/pg-21.jpg";
+import pg22 from "../assets/pages/pg-22.jpg";
+import pg23 from "../assets/pages/pg-23.jpg";
+import pg24 from "../assets/pages/pg-24.jpg";
 
-const pages = Object.entries(pageModules)
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([, url]) => url);
-const pg = (n: number) => pages[n - 1];
+const pages = [pg01, pg02, pg03, pg04, pg05, pg06, pg07, pg08, pg09, pg10, pg11, pg12, pg13, pg14, pg15, pg16, pg17, pg18, pg19, pg20, pg21, pg22, pg23, pg24];
+const pg = (n: number) => pages[n - 1] ?? "";
 
 export const Route = createFileRoute("/")({
   head: () => ({
