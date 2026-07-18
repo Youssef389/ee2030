@@ -469,7 +469,7 @@ function Index() {
                 <li>AlManar Tower 2, AlGabl AlAkhdar st, Zahraa Nasr city, Cairo Egypt</li>
                 <li>
                   <a href="https://www.ee2030.com" className="hover:text-[color:var(--ee-pink)]">
-                    www.ee2030.com
+                    www.egypt-elite2030.com
                   </a>
                 </li>
               </ul>
