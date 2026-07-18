@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-
-const faviconUrl = "/favicon.ico";
+import faviconUrl from "../../../public/favicon.ico";
 
 const links = [
   { id: "home", label: "Home" },
