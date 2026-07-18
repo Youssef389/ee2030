@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 
+const faviconUrl = "/favicon.ico";
+
 const links = [
   { id: "home", label: "Home" },
   { id: "about", label: "What We Do" },
@@ -101,8 +103,10 @@ export function Nav() {
 
 export function LogoMark({ className = "" }: { className?: string }) {
   return (
-    <svg viewBox="0 0 64 40" className={`h-9 w-14 text-[color:var(--ee-pink)] ${className}`} fill="none" stroke="currentColor" strokeWidth="3">
-      <path d="M22 20c0-8 6-14 14-14 6 0 10 4 10 9 0 4-3 8-9 8H14c-6 0-9-4-9-8 0-5 4-9 10-9 8 0 14 6 14 14 0 8-6 14-14 14-6 0-10-4-10-9" strokeLinecap="round" />
-    </svg>
+    <img
+      src={faviconUrl}
+      alt="Egypt Elite 2030 logo"
+      className={`h-9 w-9 rounded-md object-cover ${className}`}
+    />
   );
 }
