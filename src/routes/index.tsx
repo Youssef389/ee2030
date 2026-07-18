@@ -516,9 +516,9 @@ function Index() {
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-white/70">Contact</p>
             <ul className="mt-4 space-y-2 text-sm text-white/80">
               <li>+20 100 200 3820</li>
-              <li>+20 101 131 5412</li>
-              <li>info@ee2030.com</li>
-              <li>58B, Toman Bai St., New Egypt, Cairo, Egypt</li>
+              
+              <li>info@egypt-elite2030.com</li>
+              <li>AlManar Tower 2, AlGabl AlAkhdar st, Zahraa Nasr city, Cairo Egypt</li>
             </ul>
           </div>
         </div>
