@@ -259,7 +259,7 @@ function Index() {
         <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-center px-6 pt-28 md:px-10">
           <Reveal>
             <p className="mb-4 text-xs font-semibold uppercase tracking-[0.35em] text-[color:var(--ee-pink)]">
-              www.ee2030.com
+              www.egypt-elite2030.com
             </p>
           </Reveal>
           <Reveal delay={120}>
