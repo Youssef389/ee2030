@@ -487,7 +487,7 @@ function Index() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-14 md:grid-cols-3 md:px-10">
           <div>
             <div className="flex items-center gap-3">
-              <LogoMark />
+              <LogoMark className="h-10 w-10" />
               <div>
                 <p className="font-display text-lg font-semibold leading-none">egypt elite</p>
                 <p className="font-display text-sm font-bold text-[color:var(--ee-pink)]">2030</p>
