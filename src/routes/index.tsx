@@ -460,17 +460,13 @@ function Index() {
                     +20 100 200 3820
                   </a>
                 </li>
-                <li>
-                  <a href="tel:+201011315412" className="hover:text-[color:var(--ee-pink)]">
-                    +20 101 131 5412
-                  </a>
-                </li>
+                
                 <li>
                   <a href="mailto:info@ee2030.com" className="hover:text-[color:var(--ee-pink)]">
-                    info@ee2030.com
+                   info@egypt-elite2030.com
                   </a>
                 </li>
-                <li>58B, Toman Bai St., New Egypt, Cairo, Egypt</li>
+                <li>AlManar Tower 2, AlGabl AlAkhdar st, Zahraa Nasr city, Cairo Egypt</li>
                 <li>
                   <a href="https://www.ee2030.com" className="hover:text-[color:var(--ee-pink)]">
                     www.ee2030.com
